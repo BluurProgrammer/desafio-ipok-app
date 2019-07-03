@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funcionários</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="container">
+                <h4>Evolução de Salário entre 1985 - 2002 | 5000 rows</h4>
+            </div>
+
+            <canvas id="canvas"></canvas>
+        </div>
+        <h4>Funcionário</h4>
+
+        <div class="col-sm-4"><br />
+            <div class="row">
+
+                <div class="col-sm-12">
+                    <select class="selectpicker" multiple data-live-search="true" title="Funcionario..."
+                        id="selectFuncionarios">
+                    </select>
+                </div>
+
+            </div>
+            <hr />
+            <h4>Ocorrências</h4>
+            <div class="ocorrenciasScroller" id="divOcorrencias">
+            </div>
+
+        </div>
+    </div>
+    <br/><br/>
+    <div class="row">
+            <div class="col-sm-12">
+                <div class="container">
+                    <h4>Financeiro 1985 - 2002</h4>
+                </div>
+    
+                <canvas id="canvasDepartamentoFinanceiro"></canvas>
+            </div>
+           
+    </div>
+
+    <!-- VENDORS -->
+    <script type="text/javascript" src="vendor/js/chartjs.js"></script>
+    <script type="text/javascript" src="vendor/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="vendor/utils.js"></script>
+
+    <!-- EMPLOYEES -->
+    <script type="text/javascript" src="../EXPORTED_EMPLOYEES.min.js"></script>
+    <script type="text/javascript" src="js/funcionarios.js"></script>
+    <script type="text/javascript" src="js/evolucao-salarial.js"></script>
+    <script type="text/javascript" src="js/ocorrencias.js"></script>
+    <script type="text/javascript" src="js/departamento-financeiro.js"></script>
+
+</body>
+
+</html>

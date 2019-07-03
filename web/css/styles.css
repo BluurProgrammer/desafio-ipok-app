@@ -1,0 +1,7 @@
+.ocorrenciasScroller
+{
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 350px;
+}
