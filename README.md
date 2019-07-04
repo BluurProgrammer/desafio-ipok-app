@@ -33,6 +33,7 @@ Não sendo necessário nenhum servidor para rodar, pois o mesmo foi construído 
 
 ### SELECIONE O(S) FUNCIONARIO(S) NO CAMPO
 ![alt text](https://i.imgur.com/lUal0sT.png)
+![alt text](https://i.imgur.com/82pU7Fy.png)
 ![alt text](https://i.imgur.com/Uwh3Agy.png)
 ![alt text](https://i.imgur.com/NlfEEal.png)
 ![alt text](https://i.imgur.com/6LnARBM.png)
