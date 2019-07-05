@@ -21,7 +21,7 @@ Extraído para um arquivo json e foi realizado um processo de minify para melhor
 
 Tecnologias utilizadas: JS, HTML5.
 
-Os arquivos JS para criar a dinâmica do site, também foi monificados (ECMAScript 2019 babel-minify). Seus sources estão dentro de web/source-js
+Os arquivos JS para criar a dinâmica do site, também foi minificados (ECMAScript 2019 babel-minify). Seus sources estão dentro de web/source-js
 
 # Gráficos na WEB
 
